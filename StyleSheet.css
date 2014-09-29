@@ -1,4 +1,4 @@
-.navbar-brand{
+.navbar-header{
    position: relative;
               /* Chrome, Safari, Opera */
               -webkit-animation: navbarani 5s;
@@ -13,18 +13,18 @@
 }
 /* Chrome, Safari, Opera */
 @-webkit-keyframes navbarani {
-    0%   {color:red; left:0px; top:15px; }
-    25%  {color:hsl(290,100%,50%); left:50px; bottom:12px;}
-    50%  {color:blue; left:200px;top:13px;}
-    75%  {color:green; left:0px;bottom:13px;}
-    100% {color:red; left:100px;top:23px;}
+    0%   {color:red; }
+    25%  {color:hsl(290,100%,50%);}
+    50%  {color:blue; }
+    75%  {color:green; }
+    100% {color:red;}
 }
 
 /* Standard syntax */
 @keyframes navbarani {
-    0%   {color:red; left:0px; top:15px; }
-    25%  {color:hsl(290,100%,50%); left:50px; bottom:12px;}
-    50%  {color:blue; left:200px;top:13px;}
-    75%  {color:green; left:0px;bottom:13px;}
-    100% {color:red; left:100px;top:23px;}
+    0%   {color:red; }
+    25%  {color:hsl(290,100%,50%);}
+    50%  {color:blue; }
+    75%  {color:green; }
+    100% {color:red;}
 }
