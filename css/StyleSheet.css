@@ -1,0 +1,52 @@
+﻿body {
+    background-image: url('../assets/background.jpeg');
+    font-family: 'Merriweather',serif;
+    color: white;
+}
+
+#header {
+   
+    position:fixed;
+    width:100%;
+    top:0px;
+}
+
+.title {
+    margin-top:0px;
+   font-size:25px;
+    float: left;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+    .navbar li {
+        display: inline;
+        padding: 10px;
+        width: auto;
+    }
+
+        .navbar li a:link, .navbar li a:visited, .navbar li a:active {
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+        }
+
+#home {
+    position:relative;
+    margin-top:-20px;
+}
+
+.jumbotron {
+    font-size: 200px;
+    color: white;
+   
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
