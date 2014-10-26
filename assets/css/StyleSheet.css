@@ -1,0 +1,56 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: url('../background.jpeg');
+      font-size:100%;
+    color:#ffffff;
+}
+a:link,a:visited {
+text-decoration:none;
+color:#ffffff;
+}
+
+
+#nav {
+float:right;
+
+}
+
+#nav ul li {
+list-style:none;
+display:inline;
+padding:0.5em;
+font-size:1.3em;
+
+}
+
+#nav ul li a:link {
+    opacity:0.75;
+    text-decoration:none;
+   
+}
+
+#nav ul li a:active {
+    opacity:1;
+    text-decoration:none;
+    -webkit-box-shadow: 0px 9px 3px 0px rgba(48, 50, 50, 0.75);
+    -moz-box-shadow:    0px 9px 3px 0px rgba(48, 50, 50, 0.75);
+    box-shadow:         0px 9px 3px 0px rgba(48, 50, 50, 0.75);
+}
+
+#home, #projects ,#about ,#contact  {
+padding-top:4em;
+text-align:center;
+-webkit-transition: all 1s linear ; /* For Safari 3.1 to 6.0 */
+    transition: all 1s linear ;
+}
+
+
+.jumbo {
+    text-align:center;
+    font-size:10em;
+
+}
