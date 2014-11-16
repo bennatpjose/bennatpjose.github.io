@@ -20,9 +20,8 @@ float:right;
 }
 
 #top-menu{
-    position: fixed;
+    position: relative;
     z-index: 1;
-    background: white;
     left: 0;
     right: 0;
     top: 0;
@@ -30,7 +29,7 @@ float:right;
 }
 
 #top-menu a {
-    display: block;
+    display: inline;
     padding: 5px 25px 7px 25px;
     width: 4em;
     text-align: center;
@@ -38,7 +37,7 @@ float:right;
     -moz-transition: .5s all ease-in;
     transition: .5s all ease-out;
     border-top: 3px solid white;
-    color: #aaa;
+    color: rgba(48, 50, 50, 0.75);
     text-decoration: none;
 }
 
@@ -50,14 +49,11 @@ font-size:1.3em;
 
 }
 
-#nav ul li a:link {
-    opacity:0.75;
-    text-decoration:none;
-   
-}
 
-#nav ul li a:active {
+
+#top-menu a:active,#top-menu a:hover {
     opacity:1;
+    color:#000000;
     text-decoration:none;
     -webkit-box-shadow: 0px 9px 3px 0px rgba(48, 50, 50, 0.75);
     -moz-box-shadow:    0px 9px 3px 0px rgba(48, 50, 50, 0.75);
@@ -71,7 +67,9 @@ text-align:center;
     transition: all 1s linear ;
 }
 
-
+#about {
+display: block; width: 50%; padding-left: 25%; padding-right: 25%; font-size: 1.5em;
+}
 .jumbo {
     text-align:center;
     font-size:10em;
